@@ -6,7 +6,7 @@
   - zaimplementuj wyświetlanie na stronie /users wpisów śledzonych użytkowników
   - zaimplementuj paginację na stronie /users
   - zaimplementuj wylogowywanie
-2. TODO: coś o CSS (+0.5)
+2. TODO: coś o CSS i pug (+0.5)
 3. Zamień kod na TypeScript (+0.5)
 4. Zaimplementuj odporne na CSRF (użyj csurf) i SQL injection formularz dodawania wpisu i usuwania wpisu, dodawać i usuwać wpisy powinni móc tylko nauczyciele, po dodaniu wpisu powinno się automatycznie ustawić pole timestamp (+0.5)
 5. FIXME (słaby pomysł): zaimplementuj, pamiętając o współbieżności, ograniczenie pozwalające jednemu nauczycielowi dodać jedynie jeden wpis na minutę.
