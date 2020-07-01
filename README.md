@@ -14,11 +14,11 @@
   - czy po złym haśle jest komunikat o błędzie, a po poprawnym jest się zalogowanym
   - czy działa wylogowanie
 
- 
+Opisz w pliku README.md co zrobiłeś (każdy podpunkt 2-3 zdania)
 
 # Uwagi #
 
 1. Nie wolno modyfikować struktury bazy danych
 2. Nie wolno używać bibliotek CSS, cały CSS należy napisać samodzielnie
 3. Imię i Nazwisko z punktu 2 to oczywiście dane osobowe zdającego
-4. Oddać powinieneś zzipowane (plik zip) katalogi `public`, `routes`, `views` oraz pliki `package.json`, `app.*` i ewentualne dodatkowe pliki z danymi do selenium.
+4. Oddać powinieneś zzipowane (plik zip) katalogi `public`, `routes`, `views` oraz pliki `README.md`, `package.json`, `app.*` i ewentualne dodatkowe pliki z danymi do selenium.
