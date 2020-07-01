@@ -7,9 +7,9 @@
   - zaimplementuj paginację na stronie /users
   - zaimplementuj wylogowywanie
   
-## PUG +0.5 ##
+## Pug +0.5 ##
 
-Zaimplementuj szablony w pug:
+Zaimplementuj szablony w Pug:
 - wykorzystaj dziedziczenie szablonów (Template Inheritance), 
 - dołącz CSS, 
 - na każdej ze stron powinna pojawiać się stopka (użyj odpowiedniego tagu z HTML) zawierająca napis: "Imię, Nazwisko egzamin WWW 2019 edycja 1"
