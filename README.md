@@ -14,7 +14,7 @@
   - czy wyświetla się pięć najnowszych wpisów na stronie głównej
   - czy po złym haśle jest komunikat o błędzie, a po poprawnym jest się zalogowanym
   - czy działa wylogowanie
-   Do testów dołącz odpowiedni skrypt w package.json (założenie bazy, uruchomienie i zamknięcie serwera, ...)
+Do testów dołącz odpowiedni skrypt w package.json (założenie bazy, uruchomienie i zamknięcie serwera, ...)
 
 # Uwagi #
 
