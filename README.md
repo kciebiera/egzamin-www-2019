@@ -1,3 +1,9 @@
+# Ogólnie #
+
+Dostajesz niedokończoną aplikację oraz dokończoną bazę danych (`baza.db` i `data.sql` to te same dane). Po uruchomieniu aplikacja "prawie działa". Obejrzyj
+kod aplikacji i wykonaj zadania. Każdy, kto chce zdać, musi wykonać zadanie na 3, a poozstałe punkty są mocno niezależne od siebie i wykonanie każdego z nich
+podnosi ocenę o pół stopnia.
+
 # Zadania #
 
 ## Minimum na 3 ##
@@ -22,12 +28,12 @@ Implementacja powinna zawierać JS uruchamiany po stronie przeglądarki oraz inn
 
 ## Formularz +0.5 ##
 
-Zaimplementuj odporne na CSRF (użyj csurf) i SQL injection formularz dodawania wpisu i usuwania wpisu (`my_entries` w `users.js`), dodawać i usuwać wpisy powinni móc tylko nauczyciele, przy dodawaniu wpisu powinno się automatycznie na bieżący czas ustawić pole timestamp  (+0.5)
-
+Zaimplementuj odporne na CSRF (użyj csurf) i SQL injection formularze: dodawania wpisu i usuwania własnych wpisów (`/my_entries` w `users.js`), dodawać i usuwać 
+wpisy powinni móc tylko nauczyciele, przy dodawaniu wpisu powinno się automatycznie na bieżący czas ustawić pole timestamp  (+0.5)
 
 ## Selenium +0.5 ##
 
-Przygotuj testy w selenium (+0.5). Testy powinny być przygoowane do następujących podpunktów z zadania na trzy: 
+Przygotuj testy w selenium (+0.5). Testy powinny być przygotowane do następujących podpunktów z zadania na 3: 
   - czy wyświetla się pięć najnowszych wpisów na stronie głównej
   - czy po złym haśle jest komunikat o błędzie, a po poprawnym jest się zalogowanym
   - czy działa wylogowanie
