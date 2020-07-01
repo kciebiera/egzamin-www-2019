@@ -21,4 +21,4 @@
 1. Nie wolno modyfikować struktury bazy danych
 2. Nie wolno używać bibliotek CSS, cały CSS należy napisać samodzielnie
 3. Imię i Nazwisko z punktu 2 to oczywiście dane osobowe zdającego
-4. Oddać powinieneś zzipowane (plik zip) katalogi `public`, `routes`, `views`, `package.json` i ewentualne dodatkowe pliki z danymi do selenium.
+4. Oddać powinieneś zzipowane (plik zip) katalogi `public`, `routes`, `views` oraz pliki `package.json`, `app.*` i ewentualne dodatkowe pliki z danymi do selenium.
