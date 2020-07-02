@@ -9,11 +9,12 @@ Wolno pisać w TypeScript, ale nie dodaje to punktów.
 # Zadania #
 
 ## Minimum na 3 ##
-  - w index.js odczytaj poprawnie z bazy danych ostatnie pięć wpisów i wyświetl je użytkownikowi
-  - zaimplementuj logowanie (na stronie głównej), które po podaniu poprawnie loginu i hasła przenosi na /users, a po niepoprawnej próbie logowania pokazuje komunikat o błędnym loginie lub haśle (również na stronie głównej)
-  - zaimplementuj wyświetlanie na stronie /users wpisów śledzonych użytkowników
-  - zaimplementuj paginację na stronie /users
-  - zaimplementuj wylogowywanie
+
+- w index.js odczytaj poprawnie z bazy danych ostatnie pięć wpisów i wyświetl je użytkownikowi
+- zaimplementuj logowanie (na stronie głównej), które po podaniu poprawnie loginu i hasła przenosi na /users, a po niepoprawnej próbie logowania pokazuje komunikat o błędnym loginie lub haśle (również na stronie głównej)
+- zaimplementuj wyświetlanie na stronie /users wpisów śledzonych użytkowników
+- zaimplementuj paginację na stronie /users
+- zaimplementuj wylogowywanie
   
 ## Pug +0.5 ##
 
@@ -36,20 +37,21 @@ wpisy powinni móc tylko nauczyciele, przy dodawaniu wpisu powinno się automaty
 ## Selenium +0.5 ##
 
 Przygotuj testy w selenium (+0.5). Testy powinny być przygotowane do następujących podpunktów z zadania na 3: 
-  - czy wyświetla się pięć najnowszych wpisów na stronie głównej
-  - czy po złym haśle jest komunikat o błędzie, a po poprawnym jest się zalogowanym
-  - czy działa wylogowanie
+- czy wyświetla się pięć najnowszych wpisów na stronie głównej
+- czy po złym haśle jest komunikat o błędzie, a po poprawnym jest się zalogowanym
+- czy działa wylogowanie
 
 Do testów dołącz odpowiedni skrypt w package.json (założenie bazy, uruchomienie i zamknięcie serwera, ...) 
 
 ## Podsumowanie ##
 
-Opisz w pliku README.md co zrobiłeś (każdy podpunkt 2-3 zdania)
+Opisz w pliku README.md co zrobiłeś/aś (każdy podpunkt 2-3 zdania)
 
 # Uwagi #
 
 1. Nie wolno modyfikować struktury bazy danych
 2. Nie wolno używać bibliotek CSS, cały CSS należy napisać samodzielnie
-3. Imię i Nazwisko z punktu 2 to oczywiście dane osobowe zdającego
-4. Oddać powinieneś zzipowane (plik zip) katalogi `public`, `routes`, `views` oraz pliki `README.md`, `package.json`, `app.*` i ewentualne dodatkowe pliki z danymi do selenium. Nie powinieneś oddawać `node_modules`. Zip powinien mieć sporo mniej niż 1 MB.
+3. Podobnie nie wolno używać bibliotej JS/TS, cały JS/TS należy napisać samodzielnie
+4. Imię i Nazwisko z punktu 2 to oczywiście dane osobowe zdającego/zdającej
+5. Oddać należy zzipowane (plik zip) katalogi `public`, `routes`, `views` oraz pliki `README.md`, `package.json`, `app.*` i ewentualne dodatkowe pliki z danymi do selenium. Nie powinno się oddawać `node_modules`. Zip powinien mieć sporo mniej niż 1 MB.
 
