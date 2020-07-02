@@ -1,6 +1,8 @@
 # Wyjaśnienia #
 
-`jeszcze nie ma`
+- `9:12` jak ktoś robi wersję z JSON, to nie musi oddawać wersji pośredniej
+- `9:11` biblioteki typu @types można zainstalować
+
 
 # Ogólnie #
 
