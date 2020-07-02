@@ -4,6 +4,8 @@ Dostajesz niedokończoną aplikację oraz dokończoną bazę danych (`baza.db` i
 kod aplikacji i wykonaj zadania. Każdy, kto chce zdać, musi wykonać zadanie na 3, a poozstałe punkty są mocno niezależne od siebie i wykonanie każdego z nich
 podnosi ocenę o pół stopnia.
 
+Wolno pisać w TypeScript, ale nie dodaje to punktów.
+
 # Zadania #
 
 ## Minimum na 3 ##
@@ -49,4 +51,5 @@ Opisz w pliku README.md co zrobiłeś (każdy podpunkt 2-3 zdania)
 1. Nie wolno modyfikować struktury bazy danych
 2. Nie wolno używać bibliotek CSS, cały CSS należy napisać samodzielnie
 3. Imię i Nazwisko z punktu 2 to oczywiście dane osobowe zdającego
-4. Oddać powinieneś zzipowane (plik zip) katalogi `public`, `routes`, `views` oraz pliki `README.md`, `package.json`, `app.*` i ewentualne dodatkowe pliki z danymi do selenium.
+4. Oddać powinieneś zzipowane (plik zip) katalogi `public`, `routes`, `views` oraz pliki `README.md`, `package.json`, `app.*` i ewentualne dodatkowe pliki z danymi do selenium. Nie powinieneś oddawać `node_modules`. Zip powinien mieć sporo mniej niż 1 MB.
+
