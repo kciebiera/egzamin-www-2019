@@ -6,14 +6,26 @@ podnosi ocenę o pół stopnia.
 
 Wolno pisać w TypeScript, ale nie dodaje to punktów.
 
+## Zawartość bazy danych ##
+
+Tabele:
+- `osoba` - loginy, hasła (niezaszyfrowane) osób mających konto w naszym serwisie oraz informacje o tym czy osoba jest nauczycielem czy nie
+- `wpis` - login osoby (klucz zewnętrzny), czas dodania wpisu i treść wpisu
+- `sledzacy` - informacje o tym kto śledzi wpisy kogo (dwa klucze zewnętrzne)
+
+W ramach zadania powstanie serwer, który będzie modyfikował jedynie zawartość tabeli `wpis`, czyli nie będzie można np. dodawać użytkowników ani informacji o tym
+kto kogo śledzi.
+
+Nie należy modyfikować struktury bazy danych (np dodawać pól do tabel, ani zmieniać typów, ...)
+
 # Zadania #
 
 ## Minimum na 3 ##
 
 - w index.js odczytaj poprawnie z bazy danych ostatnie pięć wpisów i wyświetl je użytkownikowi
-- zaimplementuj logowanie (na stronie głównej), które po podaniu poprawnie loginu i hasła przenosi na /users, a po niepoprawnej próbie logowania pokazuje komunikat o błędnym loginie lub haśle (również na stronie głównej)
-- zaimplementuj wyświetlanie na stronie /users wpisów śledzonych użytkowników
-- zaimplementuj paginację na stronie /users
+- zaimplementuj logowanie (na stronie głównej), które po podaniu poprawnie loginu i hasła przenosi na `/users`, a po niepoprawnej próbie logowania pokazuje komunikat o błędnym loginie lub haśle (również na stronie głównej)
+- zaimplementuj wyświetlanie na stronie `/users` wpisów śledzonych użytkowników, do strony `/users` powinni mieć dostęp jedynie zalogowani użytkownicy
+- zaimplementuj paginację na stronie `/users`
 - zaimplementuj wylogowywanie
   
 ## Pug +0.5 ##
@@ -54,4 +66,3 @@ Opisz w pliku README.md co zrobiłeś/aś (każdy podpunkt 2-3 zdania)
 3. Podobnie nie wolno używać bibliotej JS/TS, cały JS/TS należy napisać samodzielnie
 4. Imię i Nazwisko z punktu 2 to oczywiście dane osobowe zdającego/zdającej
 5. Oddać należy zzipowane (plik zip) katalogi `public`, `routes`, `views` oraz pliki `README.md`, `package.json`, `app.*` i ewentualne dodatkowe pliki z danymi do selenium. Nie powinno się oddawać `node_modules`. Zip powinien mieć sporo mniej niż 1 MB.
-
