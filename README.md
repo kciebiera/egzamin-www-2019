@@ -22,7 +22,7 @@ Nie należy modyfikować struktury bazy danych (np dodawać pól do tabel, ani z
 
 ## Minimum na 3 ##
 
-- w index.js odczytaj poprawnie z bazy danych ostatnie pięć wpisów i wyświetl je użytkownikowi
+- w index.js odczytaj poprawnie z bazy danych najnowsze (według pola timestamp) pięć wpisów i wyświetl je użytkownikowi
 - zaimplementuj logowanie (na stronie głównej), które po podaniu poprawnie loginu i hasła przenosi na `/users`, a po niepoprawnej próbie logowania pokazuje komunikat o błędnym loginie lub haśle (również na stronie głównej)
 - zaimplementuj wyświetlanie na stronie `/users` wpisów śledzonych użytkowników, do strony `/users` powinni mieć dostęp jedynie zalogowani użytkownicy
 - zaimplementuj paginację na stronie `/users`
