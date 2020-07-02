@@ -4,7 +4,7 @@
 
 # Ogólnie #
 
-Egzamin trwa od 9:00 do 13:45. Czas od 13:45 do 14:00 należy poświęcić na wgrywanie wyników do moodle. Podczas egzaminu jestem na #www-2020 na rokecie.
+Egzamin trwa 2020-07-02 od **9:00** do **13:45**. Czas od 13:45 do 14:00 należy poświęcić na wgrywanie wyników do moodle. Podczas egzaminu jestem na #www-2020 na rokecie.
 Na rockecie i tutaj będę publikował wyjaśnienia.
 
 Dostajesz niedokończoną aplikację oraz dokończoną bazę danych (`baza.db` i `data.sql` to te same dane). Po uruchomieniu aplikacja "prawie działa". Obejrzyj
