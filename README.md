@@ -1,5 +1,6 @@
 # Wyjaśnienia #
 
+- `9:26` można dodać `tsconfig.json` i `tslint.json`, można użyć `express-session`
 - `9:22` w wersji z ts-node można nie używać `bin/www`
 - `9:15` w wersji z TypeScriptem można odpalać przez ts-node (proszę pamiętać o dodaniu zależności w `packages.json`)
 - `9:12` jak ktoś robi wersję z JSON, to nie musi oddawać wersji pośredniej
