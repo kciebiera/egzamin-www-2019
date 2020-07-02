@@ -1,5 +1,6 @@
 # Wyjaśnienia #
 
+- `9:15` w wersji z TypeScriptem można odpalać przez ts-node (proszę pamiętać o dodaniu zależności w `packages.json`)
 - `9:12` jak ktoś robi wersję z JSON, to nie musi oddawać wersji pośredniej
 - `9:11` biblioteki typu @types można zainstalować
 
