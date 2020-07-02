@@ -1,10 +1,19 @@
+# Wyjaśnienia #
+
+`jeszcze nie ma`
+
 # Ogólnie #
+
+Egzamin trwa od 9:00 do 13:45. Czas od 13:45 do 14:00 należy poświęcić na wgrywanie wyników do moodle. Podczas egzaminu jestem na #www-2020 na rokecie.
+Na rockecie i tutaj będę publikował wyjaśnienia.
 
 Dostajesz niedokończoną aplikację oraz dokończoną bazę danych (`baza.db` i `data.sql` to te same dane). Po uruchomieniu aplikacja "prawie działa". Obejrzyj
 kod aplikacji i wykonaj zadania. Każdy, kto chce zdać, musi wykonać zadanie na 3, a poozstałe punkty są mocno niezależne od siebie i wykonanie każdego z nich
 podnosi ocenę o pół stopnia.
 
 Wolno pisać w TypeScript, ale nie dodaje to punktów.
+
+
 
 ## Zawartość bazy danych ##
 
@@ -66,3 +75,6 @@ Opisz w pliku README.md co zrobiłeś/aś (każdy podpunkt 2-3 zdania)
 3. Podobnie nie wolno używać bibliotej JS/TS, cały JS/TS należy napisać samodzielnie
 4. Imię i Nazwisko z punktu 2 to oczywiście dane osobowe zdającego/zdającej
 5. Oddać należy zzipowane (plik zip) katalogi `public`, `routes`, `views` oraz pliki `README.md`, `package.json`, `app.*` i ewentualne dodatkowe pliki z danymi do selenium. Nie powinno się oddawać `node_modules`. Zip powinien mieć sporo mniej niż 1 MB.
+
+
+GLHF
