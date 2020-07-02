@@ -59,11 +59,11 @@ Implementacja powinna zawierać JS uruchamiany po stronie przeglądarki oraz inn
 ## Formularz +0.5 ##
 
 Zaimplementuj odporne na CSRF (użyj csurf) i SQL injection formularze: dodawania wpisu i usuwania własnych wpisów (`/my_entries` w `users.js`), dodawać i usuwać 
-wpisy powinni móc tylko nauczyciele, przy dodawaniu wpisu powinno się automatycznie na bieżący czas ustawić pole timestamp  (+0.5)
+wpisy powinni móc tylko nauczyciele, przy dodawaniu wpisu powinno się automatycznie na bieżący czas ustawić pole timestamp
 
 ## Selenium +0.5 ##
 
-Przygotuj testy w selenium (+0.5). Testy powinny być przygotowane do następujących podpunktów z zadania na 3: 
+Przygotuj testy w selenium. Testy powinny być przygotowane do następujących podpunktów z zadania na 3: 
 - czy wyświetla się pięć najnowszych wpisów na stronie głównej
 - czy po złym haśle jest komunikat o błędzie, a po poprawnym jest się zalogowanym
 - czy działa wylogowanie
