@@ -1,17 +1,8 @@
 var express = require('express');
 var router = express.Router();
 
-// TODO: nie działa wypisywanie ostatnich wpisów
-// popraw poniższy kod tak aby wyświetlał ostatnie pięć wpisów w kolejności
-// od najnowszego i używał puga
 router.get('/', function(req, res, next) {
-  let db =req.app.locals.db;
-  let ostatnieWpisy = '<li>wpis testowy</li>';
   
-  db.each('SELECT login_osoby, tresc FROM wpis', function (err, row) {
-    ostatnieWpisy += '<li>' + row.login_osoby + ': ' + row.tresc + '</li>';
-    console.log(ostatnieWpisy);
-  })
   res.send(`
   <p id='error-message'>tutaj powinna się pojawić ewentualna informacja o błędnej próbie logowania</p>
   <form method='post'>
@@ -21,13 +12,31 @@ router.get('/', function(req, res, next) {
   </form>
   <div id='ostatnie-wpisy'>
   <ul>
-  ${ostatnieWpisy}
+  <li><a href='pytanie?id=6'>2020-06-06 10:00 pytanie_3_2</a>(2 odpowiedzi)</li>
+  <li><a href='pytanie?id=5'>2020-06-05 10:00 pytanie_3_1</a>(1 odpowiedź)</li>
+  <li><a href='pytanie?id=4'>2020-06-04 10:00 pytanie_2_2</a>(0 odpowiedzi)</li>
   </ul>
+  <a href='#'>Następna strona</a>
   </div>
   `);  
 });
 
-// TODO: zaimplementuj logowanie
-// logowanie powinno albo przekierować do trasy / albo do trasy /users
 
+router.get('/pytanie', function(req, res, next) {
+  res.send(`
+  <h1>Pytanie</h1>
+  pytanie_3_2
+  </h1>Odpowiedzi</h1>
+  <h2>nauczyciel_1</h2>
+  odpowiedz_1
+  <h2>nauczyciel_2</h2>
+  odpowiedz_2
+  <h1>Moja odpowiedz</h1>
+  <form method='post'>
+  <input type='text' name='Odpowiedź'>
+  <input type='submit'>
+  </form>
+  
+  `);
+});
 module.exports = router;
