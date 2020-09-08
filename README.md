@@ -1,4 +1,4 @@
-# Egzamin WWW 2019 trermin drugi #
+# Egzamin WWW 2019 termin drugi #
 
 Zadanie należy oddać na moodle!
 
