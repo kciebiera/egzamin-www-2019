@@ -42,7 +42,7 @@ Nie należy modyfikować struktury bazy danych (np dodawać pól do tabel, ani z
 
 - w `index.js` odczytaj poprawnie z bazy danych najnowsze (według pola timestamp) trzy pytania i wyświetl je użytkownikowi wraz z informacją o liczbie odpowiedzi na każde z pytań
 - przygotuj paginację na stronie `index.js`
-- zaimplementuj logowanie (na stronie głównej) oraz wylogowywanie **tylko dla nauczycieli**
+- zaimplementuj logowanie (na stronie głównej) oraz wylogowywanie, obydwie czynności **tylko dla nauczycieli**, uczniowie się ani nie logują ani nie wylogowują
 - zaimplementuj stronę `/pytanie`, która wyświetla treść pytania oraz wszystkie odpowiedzi
   
 ## Pug +0.5 ##
