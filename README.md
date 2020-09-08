@@ -1,3 +1,7 @@
+# Egzamin WWW 2019 trermin drugi #
+
+Zadanie należy oddać na moodle!
+
 # Wyjaśnienia #
 
 - można użyć `better-sqlite3`
