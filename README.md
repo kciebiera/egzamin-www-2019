@@ -55,13 +55,13 @@ Zaimplementuj szablony w Pug:
 
 ## JSON +0.5 ##
 
-Zaimplementuj dynamiczne ładowanie wpisów wyświetlanych na stronie z pytaniem: zamiast być częścią szablonów powinny być one przesyłane jako JSON.
+Zaimplementuj dynamiczne ładowanie wpisów wyświetlanych na stronie z pytaniem i odpowiedziami: zamiast być częścią szablonów powinny być one przesyłane jako JSON.
 Implementacja powinna zawierać JS uruchamiany po stronie przeglądarki oraz inny JS uruchamiany po stronie serwera.
 
 ## Formularz +0.5 ##
 
-Zaimplementuj odporne na CSRF (użyj csurf) i SQL injection formularze: dodawania wpisu i usuwania własnych wpisów (`/pytanie` w `index.js`), dodawać i usuwać 
-odpowiedzi powinni móc tylko nauczyciele.
+Zaimplementuj odporne na CSRF (użyj csurf) i SQL injection formularze: dodawania odpowiedzi i usuwania własnych odpowiedzi (`/pytanie` w `index.js`),
+dodawać i usuwać odpowiedzi powinni móc tylko nauczyciele.
 
 ## Selenium +0.5 ##
 
